@@ -4,11 +4,9 @@ function dwarfRollCall(dwarves) {
   
   const numberedDwarf = [] //this array will store the new elements number and name
    
-  for (let i=0; i<2; i++) {
+  for (let i=0; i < dwarves.length/2; i++) {
     
-    numberedDwarf.push(`${[i+1]}. ${dwarves[i]}`)
-  }
-  
+    numberedDwarf
    return numberedDwarf.join(" ") + " "; //should return string of number and name
   
 } 
