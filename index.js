@@ -46,7 +46,7 @@ function findTheCheese (foods) {
   
   for(let i=0; i<foods.length; i++) {
     
-    for(let j=0; i<cheeseArray.length; j++) {
+    for(let j=0; j<cheeseArray.length; j++) {
       
       if (foods[i] === cheeseArray[j]) {
         
@@ -55,4 +55,17 @@ function findTheCheese (foods) {
     }
 }
 return "no cheese!";
+}
+
+
+
+function wordsWithB (words) {
+  const bFirstwords = []
+  for (let i=0; i<words.lenght; i++) {
+    if words[i]  
+  }
+  }
+  
+  
+}
 }
