@@ -62,7 +62,7 @@ return "no cheese!";
 function wordsWithB (words) {
   const bFirstwords = []
   for (let i=0; i<words.lenght; i++) {
-    if words[i]  
+    if words.str("b") 
   }
   }
   
