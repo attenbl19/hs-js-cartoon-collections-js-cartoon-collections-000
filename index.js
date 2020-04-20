@@ -4,7 +4,7 @@ function dwarfRollCall(dwarves) {
   
   const numberedDwarf = [] //this array will store the new elements number and name
    
-  for (let i=0; i<dwarves.length; i++) {
+  for (let i=0; i<2; i++) {
     
     numberedDwarf.push(`${[i+1]}. ${dwarves[i]}`)
   }
@@ -60,12 +60,11 @@ return "no cheese!";
 
 
 function wordsWithB (words) {
-  const bFirstwords = []
+  const bFirstWords = []
   for (let i=0; i<words.lenght; i++) {
     if (words[i].startWith("b") === true) {
-      return bFirstwords.push(words[i]); 
+       bFirstWords.push(words[i]); 
       }
-      
   }
-    
+   return bFirstWords 
 }
