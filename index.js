@@ -63,8 +63,8 @@ function wordsWithB (words) {
   const bFirstwords = []
   for (let i=0; i<words.lenght; i++) {
     if (words[i].startWith("b") === true) {
+      return bFirstwords.push(words[i]); 
     }
   }
-    return bFirstwords.push(words[i]); 
-
+    
 }
